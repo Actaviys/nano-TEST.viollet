@@ -31,7 +31,8 @@ void but_funk(){
   }
   if (button == 0 && b_ftag == 1){
     b_ftag = 0;
-    Serial.println(html_main); // Текст з іншого файлу
+    Serial.println(Limits);
+    // Serial.println(html_main); // Текст з іншого файлу
   }
   delay(20);
 }
